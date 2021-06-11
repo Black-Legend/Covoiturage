@@ -73,13 +73,14 @@
                             </div>
                             <!-- End of Logo -->
                         </div>
-                        <div class="col-xl-6 col-lg-6 col-md-4 col-6 menu-button">
+                        <div class="col-xl-8 col-lg-6 col-md-4 col-6">
                             <div class="menu--inner-area clearfix">
                                 <div class="menu-wraper">
                                     <nav>
                                         <!-- Header-menu -->
                                         <div class="header-menu dosis">
                                             <ul>
+
                                                 <li class="active"><a href="#">Home</a>
                                                     <ul>
                                                         <li class="active"><a href="index.html">Home 1</a></li>
@@ -94,7 +95,12 @@
                                                         <li><a href="blog.html">Blog Posts</a></li>
                                                         <li><a href="blog-details.html">single Post</a></li>
                                                     </ul>
+                                                <li class="active"><a href="#a-propos">Presentation de l'appli </a>
+
                                                 </li>
+                                                <li><a href="#features">Avantages</a></li>
+                                                <li><a href="#app">App Installation</a></li>
+                                                <li><a href="#pricing  ">Temoignages</a></li>
                                             </ul>
                                         </div>
                                         <!-- End of Header-menu -->
@@ -102,10 +108,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-4 col-sm-5 d-md-block d-none">
-                            <div class="urgent-call text-right">
-                               <a href="#" class="btn">Get Jironis</a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -116,7 +118,7 @@
     <!-- End of Main header -->
     
     <!-- home banner area -->
-    <div class="banner-area-inner">
+    <div class="banner-area-inner" id="home">
         <div class="banner-inner-area banner-area1">
             <div class="container">
                 <div class="row align-items-center">
@@ -159,38 +161,29 @@
 
     <!-- KAMAROUDINE pour l'a propos  -->
     <!-- interact user -->
-    <section class="pt-120 pb-120">
+    <section class="pt-120 pb-120" id="a-propos">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-sm-5">
                     <!-- user ineract text -->
                     <div class="user-interact-inner">
-                        <div class="interact-icon">
-                            <img src="assets/img/icons/solution1.svg" class="svg" alt="">
-                        </div>
-                        <h2>Interact With Your Users On Every Single Platform</h2>
-                        <p>
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                            alteration in some form,
-                            by injected humour.
-                        </p>
-                        <a href="#" class="btn">Get Started</a>
+                        <h2>Presentation de l'application de Covoiturage</h2>
                     </div>
                     <!--End of user ineract text -->
                 </div>
                 <div class="col-lg-7 col-sm-7">
-                    <!-- user interact image -->
-                    <div class="user-interact-image type2">
-                        <img src="assets/img/feature/user-interact2.png"  alt="">
-                    </div>
-                    <!-- End of user interact image -->
+                    <p>L'application de covoiturage est une application qui vous permet de 
+                        faciliter votre trajet quotidien où que vous soyez ou vous allez. <br>
+                        L'application permettra à tous utilisateurs possédant des véhicules de publier ses trajets hebdomadaires 
+                        et l'application se chargera de chercher des passagers sur votre trajet. <br>
+                        Vous êtes passagers et vous souhaitez faire un trajet faite confiance à l'application pour vous trouvez 
+                        un conducteur adéquat suivant votre position et votre destination. <br>
+                        Pour mieux utiliser l'application voir la section <a href="#"><strong>comment fonctionne l'application</strong></a></p>
                 </div>
             </div>
         </div>
     </section>
     <!-- interact user -->
-
-
 
 
     <!-- LEGEND pour les services-->
@@ -246,9 +239,6 @@
         </div><!--/.container-->
     </section><!-- End of feature area -->
 
-
-
-
     <!-- Counter up area -->
     <section class="border-top pt-120 pb-80">
         <div class="container">
@@ -292,27 +282,46 @@
     <section class="bg-2 pt-120 pb-120">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7 col-sm-7">
-                    <!-- user interact image -->
-                    <div class="user-interact-image">
-                        <img src="assets/img/feature/user-interact.png"  alt="">
-                    </div>
-                    <!-- End of user interact image -->
-                </div>
                 <div class="col-lg-5 col-sm-5">
-                    <!-- user ineract text -->
-                    <div class="user-interact-inner">
-                        <div class="interact-icon">
-                            <img src="assets/img/icons/teamwork.svg" class="svg" alt="">
+                  <p></p> Si vous etes interessés par le covoiturage et vous voulez etre un de nos partenaire n'hesitez pas a remplir le formulaire 
+                    et nous vous contacterons d'ici peu pour la processus d'integration.</p>
+                </div>
+                <div class="col-lg-7 col-sm-7">
+                    <form action="" method="post">
+                        <div class="form-group">
+                            <label for="nom">Votre nom</label>
+                            <input type="text" name="nom" id="nom" class="form-control" placeholder="Entre votre nom" required>
                         </div>
-                        <h2>Interact With Your Users On Every Single Platform</h2>
-                        <p>
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,
-                            by injected humour.
-                        </p>
-                        <a href="#" class="btn">Get Started</a>
-                    </div>
-                    <!--End of user ineract text -->
+                        <div class="form-group">
+                            <label for="prenom">Votre prenom</label>
+                            <input type="text" name="prenom" id="prenom" class="form-control" placeholder="Entrer votre prenom" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telephone">Votre telephone</label>
+                            <input type="tel" name="telephone" id="telephone" style="width: 100%;" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="vehicule">Type de vehicules que vous avez</label>
+                            <select name="vehicule" id="vehicule" style="width: 100%;" re>
+                                <option value="">-- Selectionner le type de vehicules --</option>
+                                <option value="">Voitures</option>
+                                <option value="">Bus</option>
+                                <option value="">Moto</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="">Avez-vous un permis ?</label>
+                            <div class="form-check">     
+                                <input type="radio" name="permis" id="oui" class="form-check-input" checked>
+                                <label for="oui" class="form-check-label">Oui</label><br>
+                                <input type="radio" name="permis" id="non" class="form-check-input">
+                                <label for="non" class="form-check-label">Non</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary mb-3">Enregistrer</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -334,9 +343,7 @@
                         </div>
                         <h2>Interact With Your Users On Every Single Platform</h2>
                         <p>
-                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                            alteration in some form,
-                            by injected humour.
+                            
                         </p>
                         <a href="#" class="btn">Get Started</a>
                     </div>
