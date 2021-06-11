@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- Document Title -->
-    <title>Jironis</title>
+    <title>CoVoiturage</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="favicon.png">
@@ -68,7 +68,7 @@
                             <!-- Logo -->
                             <div class="logo">
                                 <a href="index.html">
-                                    <img src="assets/img/logo.png" data-rjs="2" alt="jironis">
+                                    <img src="assets/img/logo.png" data-rjs="2" alt="CoVoiturage">
                                 </a>
                             </div>
                             <!-- End of Logo -->
@@ -82,10 +82,9 @@
                                             <ul>
 
                                                 <li class="active"><a href="#">Accueil</a></li>
-                                                <li class="active"><a href="#a-propos">A propos </a>
+                                                <li class=""><a href="#a-propos">A propos </a>
                                                 <li><a href="#features">Services</a></li>
                                                 <li><a href="#app">App Screens</a></li>
-                                                <li><a href="#pricing  ">Pricing</a></li>
                                                 <li><a href="#app">Telecharger l'application</a>
                                                     
 
@@ -127,7 +126,7 @@
                                 </div>
                             </div>
 
-                            <h1>Jironis is for your internet app business</h1>
+                            <h1>CoVoiturage is for your internet app business</h1>
                             <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit lorem ipsum anim id est laborum perspiciatis unde.</p>
                             <a href="#" class="btn">Download App</a>
                             <a href="#" class="btn">Discover More</a>
@@ -374,7 +373,7 @@
                 <div class="col-md-12 col-lg-8">
                     <!-- section title -->
                     <div class="section-title text-center">
-                        <h2>Jironis App Screens</h2>
+                        <h2>CoVoiturage App Screens</h2>
                         <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit lorem ipsum anim id est laborum perspiciatis unde.</p>
                     </div>
                     <!-- End of section title -->
@@ -965,7 +964,7 @@
                                     </li>
                                     <li>
                                         <span><i class="fa  fa-envelope"></i></span>
-                                        needhelp@jironis.com
+                                        needhelp@CoVoiturage.com
                                     </li>
                                     <li>
                                         <span><i class="fa  fa-map"></i></span>
@@ -1018,7 +1017,7 @@
                                     </div>
                                     <div class="twetter-post">
                                         <span><i class="fa fa-twitter"></i></span>
-                                        Jironis - Nov 23, 2018
+                                        CoVoiturage - Nov 23, 2018
                                     </div>
                                 </div>
                             </div>
