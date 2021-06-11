@@ -86,7 +86,7 @@
                                                         <li><a href="index2.html">Home 2</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="#features">Features</a></li>
+                                                <li><a href="#features">Services</a></li>
                                                 <li><a href="#app">App Screens</a></li>
                                                 <li><a href="#pricing  ">Pricing</a></li>
                                                 <li><a href="#">Blog</a>
