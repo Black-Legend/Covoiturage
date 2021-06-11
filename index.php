@@ -81,26 +81,16 @@
                                         <div class="header-menu dosis">
                                             <ul>
 
-                                                <li class="active"><a href="#">Home</a>
-                                                    <ul>
-                                                        <li class="active"><a href="index.html">Home 1</a></li>
-                                                        <li><a href="index2.html">Home 2</a></li>
-                                                    </ul>
-                                                </li>
+                                                <li class="active"><a href="#">Accueil</a></li>
+                                                <li class="active"><a href="#a-propos">A propos </a>
                                                 <li><a href="#features">Services</a></li>
                                                 <li><a href="#app">App Screens</a></li>
                                                 <li><a href="#pricing  ">Pricing</a></li>
-                                                <li><a href="#">Blog</a>
-                                                    <ul>
-                                                        <li><a href="blog.html">Blog Posts</a></li>
-                                                        <li><a href="blog-details.html">single Post</a></li>
-                                                    </ul>
-                                                <li class="active"><a href="#a-propos">Presentation de l'appli </a>
+                                                <li><a href="#app">Telecharger l'application</a>
+                                                    
 
                                                 </li>
-                                                <li><a href="#features">Avantages</a></li>
-                                                <li><a href="#app">App Installation</a></li>
-                                                <li><a href="#pricing  ">Temoignages</a></li>
+                                                
                                             </ul>
                                         </div>
                                         <!-- End of Header-menu -->
@@ -913,7 +903,7 @@
 
     <!-- LEGEND pour telecharger l'app -->
     <!-- download app -->
-    <section class="border-top pt-110 pb-150 ">
+    <section class="border-top pt-110 pb-150 " id="app">
         <div class="container ">
             <div class="row justify-content-center">
                 <div class="col-lg-10 col-md-12">
