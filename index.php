@@ -264,33 +264,7 @@
         </div><!-- /.container -->
     </section><!-- /.End of Counter up area -->
 
-    <!-- SYLVAIN pour Avantages  -->
-    <!-- interact user -->
-    <section class="pt-120 pb-120">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-5">
-                    <!-- user ineract text -->
-                    <div class="user-interact-inner">
-                        <h2>Le covoiturage, c'est économique</h2>
-                        <p>
-                            Partager les frais de vos trajets grâce au covoiturage. Entretenir le véhicule, des péages sur les trajets de longues distances, faire le plein d'essence, etc... est un gouffre financier. Le covoiturage est la solution pour faire des économies et tout le monde y gagne
-                        </p>
-                        <a href="#" class="btn">Débutez avec notre application</a>
-                    </div>
-                    <!--End of user ineract text -->
-                </div>
-                <div class="col-lg-7 col-sm-7">
-                    <!-- user interact image -->
-                    <div class="user-interact-image type2">
-                        <img src="assets/img/feature/user-interact2.png"  alt="">
-                    </div>
-                    <!-- End of user interact image -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- interact user -->
+    
 
     <!-- KAMAROUDINE pour l'enregistrement des utilisateurs-->
     <!-- interact user -->
@@ -345,6 +319,64 @@
 
 
 
+ <!-- SYLVAIN pour les avantages  -->
+    <!-- interact user -->
+    <section class="pt-120 pb-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-5">
+                    <!-- user ineract text -->
+                    <div class="user-interact-inner">
+                        <h2>Le covoiturage, c'est économique</h2>
+                        <p>
+                            Partager les frais de vos trajets grâce au covoiturage. Entretenir le véhicule, des péages sur les trajets de longues distances, faire le plein d'essence, etc... est un gouffre financier. Le covoiturage est la solution pour faire des économies et tout le monde y gagne
+                        </p>
+                        <a href="#" class="btn">Débutez avec notre application</a>
+                    </div>
+                    <!--End of user ineract text -->
+                </div>
+                <div class="col-lg-7 col-sm-7">
+                    <!-- user interact image -->
+                    <div class="user-interact-image type2">
+                        <img src="assets/img/feature/user-interact2.png"  alt="">
+                    </div>
+                    <!-- End of user interact image -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- interact user -->
+
+    <!-- SYLVAIN pour les avantages-->
+    <!-- interact user -->
+    <section class="bg-2 pt-120 pb-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-sm-7">
+                    <!-- user interact image -->
+                    <div class="user-interact-image">
+                        <img src="assets/img/feature/user-interact.png"  alt="">
+                    </div>
+                    <!-- End of user interact image -->
+                </div>
+                <div class="col-lg-5 col-sm-5">
+                    <!-- user ineract text -->
+                    <div class="user-interact-inner">
+                        <h2>Le covoiturage, c'est écolo et bon pour l'environnement</h2>
+                        <p>
+                            Savez-vous que les transports sont l'une des principales sources des gaz à effet de serre, cette dernière étant une cause du réchauffement climatique ? En covoiturant, vous participez à la réduction des véhicules sur les routes, la réduction des gaz à effet de serre, moins d'embouteillage sur les routes et la diminution de la pollution sonore
+                        </p>
+                        <a href="#" class="btn">Débutez avec notre application</a>
+                    </div>
+                    <!--End of user ineract text -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- interact user -->
+
+
+
     <!-- SYLVAIN pour les avantages  -->
     <!-- interact user -->
     <section class="pt-120 pb-120">
@@ -353,12 +385,8 @@
                 <div class="col-lg-5 col-sm-5">
                     <!-- user ineract text -->
                     <div class="user-interact-inner">
-                        <div class="interact-icon">
-                            <img src="assets/img/icons/solution1.svg" class="svg" alt="">
-                        </div>
                         <h2>Pratique le covoiturage</h2>
                         <p>
-                            
                             Vous êtes fatigués de faire vos trajets seuls surtout de longues distances ou vous rendre au boulot ? Le covoiturage est un bon moyen pour les rendre plus agréable. vous pouvez discutez de vos journées de travail avec vos collègues. <br> Fatiguez de conduire, passez le relais à un autre pour vous relaxer, moins de stress pour vous et moins de risques d'accident dans le cas des longs voyages. <br> Outre ces aspects, le covoiturage offre également aux personnes non motorisées, enfants, personnes âgées ou handicapées de se déplacer
                         </p>
                         <a href="#" class="btn">Débutez avec notre application</a>
