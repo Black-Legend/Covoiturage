@@ -68,7 +68,8 @@
                             <!-- Logo -->
                             <div class="logo">
                                 <a href="index.html">
-                                    <img src="assets/img/logo.png" data-rjs="2" alt="CoVoiturage">
+                                    <!-- <img src="assets/img/logo.png" data-rjs="2" alt="CoVoiturage"> -->
+                                    <h2>KONYIN</h2>
                                 </a>
                             </div>
                             <!-- End of Logo -->
@@ -76,16 +77,15 @@
                         <div class="col-xl-8 col-lg-6 col-md-4 col-6">
                             <div class="menu--inner-area clearfix">
                                 <div class="menu-wraper">
-                                    <nav>
+                                    <nav class="">
                                         <!-- Header-menu -->
                                         <div class="header-menu dosis">
                                             <ul>
 
-                                                <li class="active"><a href="#">Accueil</a></li>
+                                                <li class=""><a href="#">Accueil</a></li>
                                                 <li class=""><a href="#a-propos">A propos </a>
                                                 <li><a href="#features">Services</a></li>
                                                 <li><a href="#app">App Screens</a></li>
-                                                <li><a href="#app">Telecharger l'application</a>
                                                     
 
                                                 </li>
@@ -128,8 +128,8 @@
 
                             <h1>CoVoiturage is for your internet app business</h1>
                             <p>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit lorem ipsum anim id est laborum perspiciatis unde.</p>
-                            <a href="#" class="btn">Download App</a>
-                            <a href="#" class="btn">Discover More</a>
+                            <a href="#app" class="btn">Télécharger l'application</a>
+                            <a href="#a-propos" class="btn">Voire plus</a>
                         </div>
                         <!-- banner text -->
                     </div>
@@ -156,12 +156,12 @@
                 <div class="col-lg-5 col-sm-5">
                     <!-- user ineract text -->
                     <div class="user-interact-inner">
-                        <h2>Presentation de l'application de Covoiturage</h2>
+                        <h2>C'est quoi <br> KONYIN ?</h2>
                     </div>
                     <!--End of user ineract text -->
                 </div>
                 <div class="col-lg-7 col-sm-7">
-                    <p>L'application de covoiturage est une application qui vous permet de 
+                    <p>KONYIN est une application qui vous permet de 
                         faciliter votre trajet quotidien où que vous soyez ou vous allez. <br>
                         L'application permettra à tous utilisateurs possédant des véhicules de publier ses trajets hebdomadaires 
                         et l'application se chargera de chercher des passagers sur votre trajet. <br>
@@ -229,7 +229,7 @@
     </section><!-- End of feature area -->
 
     <!-- Counter up area -->
-    <section class="border-top pt-120 pb-80">
+    <section class="border-top pt-120 pb-80 hide">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
@@ -266,57 +266,92 @@
 
     
 
+   
+
     <!-- KAMAROUDINE pour l'enregistrement des utilisateurs-->
     <!-- interact user -->
     <section class="bg-2 pt-120 pb-120">
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 col-sm-5">
-                  <p></p> Si vous etes interessés par le covoiturage et vous voulez etre un de nos partenaire n'hesitez pas a remplir le formulaire 
-                    et nous vous contacterons d'ici peu pour la processus d'integration.</p>
-                </div>
                 <div class="col-lg-7 col-sm-7">
-                    <form action="" method="post">
-                        <div class="form-group">
-                            <label for="nom">Votre nom</label>
-                            <input type="text" name="nom" id="nom" class="form-control" placeholder="Entre votre nom" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="prenom">Votre prenom</label>
-                            <input type="text" name="prenom" id="prenom" class="form-control" placeholder="Entrer votre prenom" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="telephone">Votre telephone</label>
-                            <input type="tel" name="telephone" id="telephone" style="width: 100%;" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="vehicule">Type de vehicules que vous avez</label>
-                            <select name="vehicule" id="vehicule" style="width: 100%;" re>
-                                <option value="">-- Selectionner le type de vehicules --</option>
-                                <option value="">Voitures</option>
-                                <option value="">Bus</option>
-                                <option value="">Moto</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="">Avez-vous un permis ?</label>
-                            <div class="form-check">     
-                                <input type="radio" name="permis" id="oui" class="form-check-input" checked>
-                                <label for="oui" class="form-check-label">Oui</label><br>
-                                <input type="radio" name="permis" id="non" class="form-check-input">
-                                <label for="non" class="form-check-label">Non</label>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-primary mb-3">Enregistrer</button>
-                        </div>
-                    </form>
+                    <!-- user interact image -->
+                    <div class="user-interact-image">
+                        <img src="assets/img/feature/user-interact.png"  alt="">
+                    </div>
+                    <!-- End of user interact image -->
+                </div>
+                <div class="col-lg-5 col-sm-5">
+                    <!-- user ineract text -->
+                    <div class="user-interact-inner">
+                        <h2>Nous rejoindre</h2>
+                        <p>
+                            Si vous etes interessés par le covoiturage et vous voulez etre un de nos partenaire n'hesitez pas a remplir le formulaire 
+                            et nous vous contacterons d'ici peu pour la processus d'integration                        </p>
+                        <a href="#" class="btn" data-toggle="modal" data-target="#exampleModal">S'enregister</a>
+                    </div>
+                    <!--End of user ineract text -->
                 </div>
             </div>
         </div>
     </section>
     <!-- interact user -->
 
+   
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title text-uppercase" id="exampleModalLabel">S'enregister</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form action="" method="post">
+                <div class="form-group">
+                    <label for="nom">Votre nom</label>
+                    <input type="text" name="nom" id="nom" class="form-control" placeholder="Entre votre nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="prenom">Votre prenom</label>
+                    <input type="text" name="prenom" id="prenom" class="form-control" placeholder="Entrer votre prenom" required>
+                </div>
+                <div class="form-group">
+                    <label for="telephone">Votre telephone</label>
+                    <input type="tel" class="form-control" name="telephone" id="telephone"  required>
+                </div>
+                <div class="form-group">
+                    <label for="vehicule">Type de vehicules que vous avez</label>
+                    <select name="vehicule" id="vehicule" class="form-control">
+                        <option value="">-- Selectionner le type de vehicules --</option>
+                        <option value="">Voitures</option>
+                        <option value="">Bus</option>
+                        <option value="">Moto</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="">Avez-vous un permis ?</label>
+                    <div class="form-check">     
+                        <input type="radio" name="permis" id="oui" class="form-check-input" checked>
+                        <label for="oui" class="form-check-label">Oui</label><br>
+                        <input type="radio" name="permis" id="non" class="form-check-input">
+                        <label for="non" class="form-check-label">Non</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn">Enregistrer</button>
+
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
  <!-- SYLVAIN pour les avantages  -->
@@ -405,6 +440,28 @@
     </section>
     <!-- interact user -->
 
+
+
+    <!-- LEGEND pour telecharger l'app -->
+    <!-- download app -->
+    <section class="border-top pt-110 pb-150 " id="app">
+        <div class="container ">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-md-12">
+                    <div class="download-app-inner text-center ">
+                        <h2 class="h1">
+                            Télécharger l'application &<br>
+                            Découvrez des possibilités infinies.
+                        </h2>
+                        <h3>  </h3>
+                        <a href="#" class="btn">Télécharger</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of download app -->
+
     <!-- app video -->
     <section class="app-video">
         <div class="container">
@@ -422,7 +479,7 @@
     <!-- End of why bottol water -->
     
     <!-- app screen -->
-    <section class="pt-120 pb-115" id='app'>
+    <section class="pt-120 pb-115 hide" id='app'>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-12 col-lg-8">
@@ -474,7 +531,7 @@
     <!-- End of app screen -->
 
     <!-- app pricing plan -->
-    <section class="pb-90" id='pricing'>
+    <section class="pb-90 hide" id='pricing'>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-12 col-lg-8">
@@ -835,7 +892,7 @@
     <!-- End of our partner -->
 
     <!-- start blog area -->
-    <section class="border-top pt-115 pb-80" id='blog'>
+    <section class="border-top pt-115 pb-80 hide" id='blog'>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-md-12">
@@ -955,141 +1012,21 @@
 
 
 
-    <!-- LEGEND pour telecharger l'app -->
-    <!-- download app -->
-    <section class="border-top pt-110 pb-150 " id="app">
-        <div class="container ">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 col-md-12">
-                    <div class="download-app-inner text-center ">
-                        <h2 class="h1">
-                            Télécharger l'application &<br>
-                            Découvrez des possibilités infinies.
-                        </h2>
-                        <h3>  </h3>
-                        <a href="#" class="btn">Télécharger</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End of download app -->
+
     
     <footer class="footer">
-        <div class="footerbg">
-        <img src="assets/img/footer-bg.png" alt="">
-        </div>
-        <div class="footer-top pt-120 pb-110">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <!-- footer widget -->
-                        <div class="footer-widget">
-                            <div class="footer-logo">
-                                <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
-                            </div>
-                            <p>Lorem ipsum dolor sit ame consy ect etur adipisc de elit. Quisque act raqum nunc no dolor sit de
-                                amet.</p>
-                            <!-- footer social area -->
-                            <div class="footer-social-area">
-                                <ul class="social-icons social-icons-light nav">
-                                    <li><a href="#" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                            <!-- End of footer social area -->
-                        </div>
-                        <!--End of footer widget -->
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-widget">
-                            <!-- widget header -->
-                            <div class="widget-header">
-                                <h5>Our Address</h5>
-                            </div>
-                            <!-- widget header -->
-                            <div class="widget-body">
-                                <ul class="address-list">
-                                    <li>
-                                        <span><i class="fa  fa-phone-square"></i></span>
-                                        888 999 0000
-                                    </li>
-                                    <li>
-                                        <span><i class="fa  fa-envelope"></i></span>
-                                        needhelp@CoVoiturage.com
-                                    </li>
-                                    <li>
-                                        <span><i class="fa  fa-map"></i></span>
-                                        855 road, broklyn street,
-                                        new york 600
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-widget">
-                            <!-- widget header -->
-                            <div class="widget-header">
-                                <h5>Extra Links</h5>
-                            </div>
-                            <!-- widget header -->
-                        </div>
-
-                        <div class="widget-body">
-                            <div class="extra-link">
-                                <div class="link-left">
-                                    <ul>
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Our Team</a></li>
-                                        <li><a href="#">Features</a></li>
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">How It Works</a></li>
-                                    </ul>
-                                </div>
-                                <div class="link-right">
-                                    <ul>
-                                        <li><a href="#">Help</a></li>
-                                        <li><a href="#">Support</a></li>
-                                        <li><a href="#">Clients</a></li>
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">Contact</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-widget">
-                            <div class="widget-body">
-                                <div class="twetter-post-inner">
-                                    <div class="footer-post-details">
-                                        @Layerdrops Take your web design to new heights with jironix. <br><a href="http://yhdj58.tp8/JK">http://yhdj58.tp8/JK</a>
-                                    </div>
-                                    <div class="twetter-post">
-                                        <span><i class="fa fa-twitter"></i></span>
-                                        CoVoiturage - Nov 23, 2018
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
+        
         <div class="footer-bottom">
             <div class="footer-text text-center">
-                <p>© copyright 2019 by Layerdrops.com</p>       
+                <p>© copyright 2021 by Layerdrops.com</p>       
             </div>
         </div>
         
     </footer>
 
     <!-- back to top -->
+
     <div class="back-to-top">
         <a href="#"><i class="fa fa-chevron-up"></i></a>
     </div>

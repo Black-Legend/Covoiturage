@@ -182,10 +182,11 @@
         top: 44px !important;
         left: 15px !important;
         width: calc(100% - 30px) !important;
-        background: #36324a;
+        background: #fff;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         max-height: 350px;
         overflow-y: auto;
+        color: #fff;
     }
 
     .header-menu ul li a {
@@ -334,7 +335,7 @@
 
     .main-header6 .header-menu>ul>li:hover>a,
     .main-header6 .header-menu>ul>li.active>a {
-        color: #00c6c6;
+        color: #f77ade;
     }
 
 
@@ -390,16 +391,16 @@
 
     .main-header .header-menu>ul>li:hover>a,
     .main-header .header-menu>ul>li.active>a {
-        color: #fff;
+        color: #f77ade;
     }
 
     .main-header.sticky .header-menu>ul>li:hover>a,
     .main-header.sticky .header-menu>ul>li.active>a {
-        color: #fff;
+        color: #f77ade;
     }
 
     .header-menu ul li a {
-        color: #979caf;
+        color: #afa097;
     }
 
     .main-header.sticky .header-menu>ul>li>a {
