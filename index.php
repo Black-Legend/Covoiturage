@@ -88,7 +88,7 @@
                                                 <li class=""><a href="#">Accueil</a></li>
                                                 <li class=""><a href="#a-propos">A propos </a>
                                                 <li><a href="#features">Services</a></li>
-                                                <li><a href="#app">App Screens</a></li>
+                                                <li><a href="#app">Télécharger l'application</a></li>
                                                     
 
                                                 </li>
