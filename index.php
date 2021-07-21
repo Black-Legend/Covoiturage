@@ -72,7 +72,7 @@
                             <div class="logo">
                                 <a href="index.html">
                                     <!-- <img src="assets/img/logo.png" data-rjs="2" alt="CoVoiturage"> -->
-                                    <h2>KOMYIN</h2>
+                                    <h2>KOMYIH</h2>
                                 </a>
                             </div>
                             <!-- End of Logo -->
@@ -90,7 +90,7 @@
                                                 <li><a href="#features">Services</a></li>
                                                 <li><a href="#app">Télécharger l'application</a></li>
                                                 
-                                                
+
                                             </ul>
                                         </div>
                                         <!-- End of Header-menu -->
@@ -157,12 +157,12 @@
                 <div class="col-lg-5 col-sm-5">
                     <!-- user ineract text -->
                     <div class="user-interact-inner">
-                        <h2>C'est quoi <br> KOMYIN ?</h2>
+                        <h2>C'est quoi <br> KOMYIH ?</h2>
                     </div>
                     <!--End of user ineract text -->
                 </div>
                 <div class="col-lg-7 col-sm-7">
-                    <p>KOMYIN est une application qui vous permet de 
+                    <p>KOMYIH est une application qui vous permet de 
                         faciliter votre trajet quotidien où que vous soyez ou vous allez. <br>
                         L'application permettra à tous utilisateurs possédant des véhicules de publier ses trajets hebdomadaires 
                         et l'application se chargera de chercher des passagers sur votre trajet. <br>
