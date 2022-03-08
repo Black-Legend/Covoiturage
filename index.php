@@ -57,7 +57,7 @@
                 <div class="sk-cube sk-cube9"></div>
             </div>
         </div>
-    </div>
+    </div> 
     <!-- End Of Preloader -->
 
     <!-- Main header -->
@@ -137,7 +137,7 @@
                     <div class="col-lg-5 offset-lg-1 col-md-4 offse-xl-2">
                         <!-- banner image-->
                         <div class="banner-image">
-                            <img src="assets/img/banner/mockup.png" alt="">
+                            <img src="assets/img/banner/mockup4.png" alt="">
                         </div>
                         <!--End of banner image-->
                     </div>
@@ -277,7 +277,7 @@
                 <div class="col-lg-7 col-sm-7">
                     <!-- user interact image -->
                     <div class="user-interact-image">
-                        <img src="assets/img/feature/user-interact.png"  alt="">
+                        <img src="assets/img/feature/img6.jpg"  alt="">
                     </div>
                     <!-- End of user interact image -->
                 </div>
@@ -374,7 +374,7 @@
                 <div class="col-lg-7 col-sm-7">
                     <!-- user interact image -->
                     <div class="user-interact-image type2">
-                        <img src="assets/img/feature/user-interact2.png"  alt="">
+                        <img src="assets/img/feature/img2.jpg"  alt="" >
                     </div>
                     <!-- End of user interact image -->
                 </div>
@@ -391,7 +391,7 @@
                 <div class="col-lg-7 col-sm-7">
                     <!-- user interact image -->
                     <div class="user-interact-image">
-                        <img src="assets/img/feature/user-interact.png"  alt="">
+                        <img src="assets/img/feature/img4.jpg"  alt="" >
                     </div>
                     <!-- End of user interact image -->
                 </div>
@@ -432,7 +432,7 @@
                 <div class="col-lg-7 col-sm-7">
                     <!-- user interact image -->
                     <div class="user-interact-image type2">
-                        <img src="assets/img/feature/user-interact2.png"  alt="">
+                        <img src="assets/img/feature/img1.jpg"  alt="" >
                     </div>
                     <!-- End of user interact image -->
                 </div>
@@ -480,7 +480,7 @@
     <!-- End of why bottol water -->
     
     <!-- app screen -->
-    <section class="pt-120 pb-115 hide" id='app'>
+    <section class="hide pt-120 pb-115 hide" id='app'>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-12 col-lg-8">
@@ -510,7 +510,7 @@
 
                     <!-- slingle app image -->
                     <div class="single-app-image">
-                        <img src="assets/img/feature/app-img3.png" data-rjs="2" alt="">
+                        <img src="assets/img/feature/app-img5.png" data-rjs="2" alt="">
                     </div>
                     <!-- slingle app image -->
 
@@ -532,7 +532,7 @@
     <!-- End of app screen -->
 
     <!-- app pricing plan -->
-    <section class="pb-90 hide" id='pricing'>
+    <section class="hide pb-90 hide" id='pricing'>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-12 col-lg-8">
@@ -804,7 +804,7 @@
 
     <!-- SYLVAIN pour les temoignages -->
     <!-- testimonial area -->
-    <section class="pt-120 pb-110 bg-2">
+    <section class="hide pt-120 pb-110 bg-2">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
@@ -853,7 +853,7 @@
 
 
     <!-- our partner -->
-    <section class="pt-120 pb-120">
+    <section class="hide pt-120 pb-120">
         <div class="container">
             <div class="row">
                 <div class="col">
